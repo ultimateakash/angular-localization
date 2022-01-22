@@ -1,0 +1,53 @@
+<div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+    <h1 class="display-5 fw-normal">{{ 'plan_title' | translate }}</h1>
+    <p class="fs-5 text-muted">{{ 'plan_text' | translate }}</p>
+</div>
+<main>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                    <h4 class="my-0 fw-normal">{{ 'free' | translate }}</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/{{ 'month' | translate }}</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li [translate]="'users_included'" [translateParams]="{'total' : 10 }"></li>
+                        <li [translate]="'storage_included'" [translateParams]="{'total' : 10 }"></li>
+                        <li [translate]="'email_included'" [translateParams]="{'total' : 10 }"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                    <h4 class="my-0 fw-normal">Pro</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/{{ 'month' | translate }}</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li [translate]="'users_included'" [translateParams]="{'total' : 20 }"></li>
+                        <li [translate]="'storage_included'" [translateParams]="{'total' : 10 }"></li>
+                        <li [translate]="'email_included'" [translateParams]="{'total' : 5 }"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                <div class="card-header py-3 text-white bg-primary border-primary">
+                    <h4 class="my-0 fw-normal">Enterprise</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/{{ 'month' | translate }}</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li [translate]="'users_included'" [translateParams]="{'total' : 30 }"></li>
+                        <li [translate]="'storage_included'" [translateParams]="{'total' : 15 }"></li>
+                        <li [translate]="'email_included'" [translateParams]="{'total' : 10 }"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
