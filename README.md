@@ -1,6 +1,6 @@
 # Localization Implementation In Angular 
 
-<p align="center"><img src="https://github.com/ultimateakash/react-localization/blob/master/src/assets/images/angular-localization.png"></p>
+<p align="center"><img src="https://github.com/ultimateakash/angular-localization/blob/master/src/assets/images/angular-localization.png"></p>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
 
